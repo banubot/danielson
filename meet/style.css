@@ -1,0 +1,88 @@
+div {
+	max-width: 90vw;
+}
+
+#bkg {
+	width: 100vw;
+	height: 100vh;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+#main {
+	top: 0;
+	height: 100vh;
+	left: 10vw;
+	width: 80vw;
+	background-color: rgba(256,256,256,0.8);
+}
+
+#nav, #main, #bkg {
+	position: fixed;
+}
+
+#name, .nav, #bio {
+	position: relative;
+}
+
+#name {
+	top: 15vh;
+	left: 15vw;
+	font-family: "Lemonada", serif;
+	font-size: 2.5vw;
+	max-width: 40vw;
+}
+
+a {
+	text-decoration-line: none;
+	margin: 1vw;
+	color: black;
+}
+
+a:hover {
+	color: grey;
+}
+
+p {
+	font-family: "Lora", serif;
+	font-size: 2vw;
+	max-width: 40vw;
+	padding: 3vw;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	font-family: "Antic Slab", sans-serif;
+	font-size: 2vw;
+}
+
+#nav {
+	width: 80vw;
+	z-index: 1;
+	left: 10vw;
+	margin: 0;
+	padding: 2vw 0;
+	top: 0;
+	background-color: rgba(256,256,256,1);
+}
+
+.nav {
+	left: 0;
+	margin: 2vw 0;
+	padding: 2vw 2.3vw;
+}
+
+.nav:hover {
+	background-color: rgba(0,0,0,0.03);
+}
+
+#teacherPic {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table {
+	top: 20vh;
+	left: 15vw;
+}

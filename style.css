@@ -1,0 +1,85 @@
+div {
+	max-width: 90vw;
+}
+
+#bkg {
+	width: 100vw;
+	height: 100vh;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+#main {
+	top: 0;
+	height: 100vh;
+	left: 10vw;
+	width: 80vw;
+	background-color: rgba(256,256,256,0.8);
+}
+
+#nav, #main, #bkg, #schoolName {
+	position: fixed;
+}
+
+#name, h2, .nav {
+	position: relative;
+}
+
+#name {
+	top: 25vh;
+	font-family: "Lemonada", serif;
+	font-size: 4vw;
+}
+
+a {
+	text-decoration-line: none;
+	margin: 1vw;
+	color: black;
+}
+
+a:hover {
+	color: grey;
+}
+
+h2 {
+	font-family: "Abril Fatface", serif;
+	font-size: 3vw;
+	text-transform: uppercase;
+	top: 30vh;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+
+li, #schoolName {
+	font-family: "Antic Slab", sans-serif;
+	font-size: 2vw;
+}
+
+#nav {
+	width: 80vw;
+	z-index: 1;
+	left: 10vw;
+	margin: 0;
+	padding: 2vw 0;
+	top: 0;
+	background-color: rgba(256,256,256,1);
+}
+
+.nav {
+	left: 0;
+	margin: 2vw 0;
+	padding: 2vw 2.3vw;
+}
+
+.nav:hover {
+	background-color: rgba(0,0,0,0.03);
+}
+
+#schoolName {
+	top: 90vh;
+	left: 27%;
+}
